@@ -1,0 +1,109 @@
+body{
+	background-color: #efefef;
+	color: #3a3a3a;
+}
+
+div.top-bar{
+	padding: 10px;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    width: 100%;
+}
+div.top-bar input {
+	max-width: none;
+    border: hidden;
+    margin: 0px;
+    background: #efefef;
+    color: #3a3a3a;
+    border-radius: 5px;
+    padding: 8px 20px;
+    -webkit-transition: box-shadow .5s,border-color, background .25s ease-in-out;
+    transition: box-shadow .5s,border-color, background .25s ease-in-out;
+}
+
+.top-bar {
+	background-color: white;
+}
+.top-bar, .top-bar ul{
+	background-color: white;
+}
+.menu-icon:after{
+	background: #aaaaaa;
+	box-shadow: 0 7px 0 #aaaaaa, 0 14px 0 #aaaaaa;
+    -webkit-transition: box-shadow .5s, background .25s ease-in-out;
+    transition: box-shadow .5s, background .25s ease-in-out;
+}
+.menu-icon::after{
+	background: #aaaaaa;
+	box-shadow: 0 7px 0 #aaaaaa, 0 14px 0 #aaaaaa;
+    -webkit-transition: box-shadow .5s, background .25s ease-in-out;
+    transition: box-shadow .5s, background .25s ease-in-out;
+}
+.menu-icon:hover:after{
+	background: #3a3a3a;
+	box-shadow: 0 7px 0 #3a3a3a, 0 14px 0 #3a3a3a;
+}
+.menu-icon:hover::after{
+	background: #3a3a3a;
+	box-shadow: 0 7px 0 #3a3a3a, 0 14px 0 #3a3a3a;
+}
+
+[type=color]:focus, [type=date]:focus, [type=datetime-local]:focus, [type=datetime]:focus, [type=email]:focus, [type=month]:focus, [type=number]:focus, [type=password]:focus, [type=search]:focus, [type=tel]:focus, [type=text]:focus, [type=time]:focus, [type=url]:focus, [type=week]:focus, textarea:focus{
+    background-color: #fefefe!important;
+    border: 1px solid #aaaaaa;
+}
+[type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus, textarea:focus{
+    background-color: #fefefe!important;
+    border: 1px solid #aaaaaa;
+}
+
+.card{
+	margin: 20px auto 20px auto;
+	background: white;
+	border-radius: 15px;
+	display: flex;
+	padding: 0px;
+}
+
+.card:hover{
+	-webkit-box-shadow: inset 0px 98px 83px -88px rgba(181,181,181,0.75);
+	-moz-box-shadow: inset 0px 98px 83px -88px rgba(181,181,181,0.75);
+	box-shadow: inset 0px 98px 83px -88px rgba(181,181,181,0.75);
+}
+
+.card .poster{
+	background: url(https://emilymoose.files.wordpress.com/2012/01/movie-poster-4.jpg);
+	display: block;
+	height: 170px;
+	width: 115px;
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 15px 0px 0px 15px;
+}
+
+.card .tick a {
+	height: 25px;
+	width: 25px;
+	display: block;
+	float: right;
+	margin-top: 15px;
+}
+
+.card .tick a h6{
+	border-radius: 30px;background: rgba(58,58,58,0.7);width: 25px;color: white;height: 25px;text-align: center;float: right;display: block;padding-top: 1px;
+}
+
+.card .tick:hover {
+	display: block;
+}
+.card .tick {
+	display: -webkit-box;
+}
+
+.card .tick a h6:active {
+	background: rgba(18,168,18,0.7);
+}
+
+
+
+
